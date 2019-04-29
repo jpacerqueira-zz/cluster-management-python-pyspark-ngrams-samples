@@ -1,0 +1,7 @@
+PASSVAL=$1
+USER=$2
+MYSQL=$3
+sqlplus /nolog <<EOF
+connect $USER/$PASSVAL
+$MYSQL  \;
+EOF

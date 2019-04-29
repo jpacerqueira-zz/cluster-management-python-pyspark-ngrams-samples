@@ -1,0 +1,175 @@
+{
+  "type" : "record",
+  "name" : "VDP_EVENTS",
+  "doc" : "Sqoop import of VDP_EVENTS",
+  "fields" : [ {
+    "name" : "EVENT_ID",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "EVENT_ID",
+    "sqlType" : "2"
+  }, {
+    "name" : "DESCRIPTION",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "DESCRIPTION",
+    "sqlType" : "-9"
+  }, {
+    "name" : "RIGHTS_ID",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "RIGHTS_ID",
+    "sqlType" : "2"
+  }, {
+    "name" : "FEED_START_TIME",
+    "type" : [ "null", "long" ],
+    "default" : null,
+    "columnName" : "FEED_START_TIME",
+    "sqlType" : "93"
+  }, {
+    "name" : "FEED_END_TIME",
+    "type" : [ "null", "long" ],
+    "default" : null,
+    "columnName" : "FEED_END_TIME",
+    "sqlType" : "93"
+  }, {
+    "name" : "EVENT_START_TIME",
+    "type" : [ "null", "long" ],
+    "default" : null,
+    "columnName" : "EVENT_START_TIME",
+    "sqlType" : "93"
+  }, {
+    "name" : "EVENT_END_TIME",
+    "type" : [ "null", "long" ],
+    "default" : null,
+    "columnName" : "EVENT_END_TIME",
+    "sqlType" : "93"
+  }, {
+    "name" : "FEED_INFO",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "FEED_INFO",
+    "sqlType" : "12"
+  }, {
+    "name" : "STATUS",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "STATUS",
+    "sqlType" : "12"
+  }, {
+    "name" : "GEOBLOCK_ID",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "GEOBLOCK_ID",
+    "sqlType" : "2"
+  }, {
+    "name" : "CHANNEL_ID",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "CHANNEL_ID",
+    "sqlType" : "2"
+  }, {
+    "name" : "JOB_ID",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "JOB_ID",
+    "sqlType" : "12"
+  }, {
+    "name" : "EXTERNAL_URL",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "EXTERNAL_URL",
+    "sqlType" : "12"
+  }, {
+    "name" : "BACKUP_JOB_ID",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "BACKUP_JOB_ID",
+    "sqlType" : "12"
+  }, {
+    "name" : "COMMENTATORS_NAMES",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "COMMENTATORS_NAMES",
+    "sqlType" : "-9"
+  }, {
+    "name" : "COMMENTATORS_PHONE_NUMBER",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "COMMENTATORS_PHONE_NUMBER",
+    "sqlType" : "12"
+  }, {
+    "name" : "COMMENTATORS_EMAIL",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "COMMENTATORS_EMAIL",
+    "sqlType" : "12"
+  }, {
+    "name" : "VOICE_OVER_BOOTH",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "VOICE_OVER_BOOTH",
+    "sqlType" : "2"
+  }, {
+    "name" : "CONTACT_ID",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "CONTACT_ID",
+    "sqlType" : "2"
+  }, {
+    "name" : "REPORTS_PROC_STATUS",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "REPORTS_PROC_STATUS",
+    "sqlType" : "12"
+  }, {
+    "name" : "LOCATION",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "LOCATION",
+    "sqlType" : "-9"
+  }, {
+    "name" : "ENCODER_OPTION_ID",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "ENCODER_OPTION_ID",
+    "sqlType" : "2"
+  }, {
+    "name" : "BROADCASTMANAGER_EVENT",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "BROADCASTMANAGER_EVENT",
+    "sqlType" : "1"
+  }, {
+    "name" : "NO_OF_MATCHES",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "NO_OF_MATCHES",
+    "sqlType" : "2"
+  }, {
+    "name" : "UUID",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "UUID",
+    "sqlType" : "12"
+  }, {
+    "name" : "REPORTS2_PROC_STATUS",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "REPORTS2_PROC_STATUS",
+    "sqlType" : "12"
+  }, {
+    "name" : "REPORTS2_PROC_PRIORITY",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "REPORTS2_PROC_PRIORITY",
+    "sqlType" : "2"
+  }, {
+    "name" : "PROD_TIER_ID",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "PROD_TIER_ID",
+    "sqlType" : "2"
+  } ],
+  "tableName" : "VDP_EVENTS"
+}

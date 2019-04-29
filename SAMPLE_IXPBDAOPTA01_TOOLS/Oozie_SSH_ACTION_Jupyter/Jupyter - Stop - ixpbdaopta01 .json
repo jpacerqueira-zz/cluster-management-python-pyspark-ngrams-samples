@@ -1,0 +1,139 @@
+[
+{
+  "pk": 2514, 
+  "model": "desktop.document2", 
+  "fields": {
+    "search": null, 
+    "uuid": "8b216997-137c-07a0-f857-f889aa3cfd73", 
+    "extra": "", 
+    "type": "oozie-workflow2", 
+    "description": "Button stop jupyter", 
+    "is_history": false, 
+    "parent_directory": [
+      "3972316f-c69e-4c37-a6a7-1542c6dc9b5b", 
+      1, 
+      false
+    ], 
+    "is_managed": false, 
+    "last_modified": "2018-03-12T21:54:02", 
+    "version": 1, 
+    "owner": [
+      "analyticsdb"
+    ], 
+    "dependencies": [
+      [
+        "60e600ea-96dd-4f1b-8f3c-ec59e3cd6914", 
+        1, 
+        true
+      ], 
+      [
+        "5bf98a57-4221-4ff2-9978-bd9a664f6523", 
+        1, 
+        true
+      ], 
+      [
+        "0cdc02ec-b9d1-4a5e-aa24-d585b1d2618d", 
+        1, 
+        true
+      ], 
+      [
+        "9a1c695c-9be8-4401-96e6-f9863d6c952a", 
+        1, 
+        true
+      ], 
+      [
+        "1391d7f5-86d3-46ef-a5dd-7f52064af16f", 
+        1, 
+        true
+      ], 
+      [
+        "88a8a3d9-d6f3-45cd-9186-0cfbc312af26", 
+        1, 
+        true
+      ], 
+      [
+        "439ed7c6-a07f-40f1-abf5-409d807a16c8", 
+        1, 
+        true
+      ], 
+      [
+        "54cc5b67-3e75-486a-92b5-511808fedb75", 
+        1, 
+        true
+      ], 
+      [
+        "2ccb5074-b29e-4d09-9b5e-49d3467607e1", 
+        1, 
+        true
+      ], 
+      [
+        "f0a7be95-92b0-4d31-8ff4-efc8188c210a", 
+        1, 
+        true
+      ], 
+      [
+        "12f1a3af-ffaf-4fbd-ada2-6357e2b94348", 
+        1, 
+        true
+      ], 
+      [
+        "be43c4da-b072-4deb-bd3f-7a2831ae67c2", 
+        1, 
+        true
+      ], 
+      [
+        "dd29cc76-d303-46b3-8cef-95600f1bf2ae", 
+        1, 
+        true
+      ], 
+      [
+        "743726e3-65ef-4008-b234-0826347362d7", 
+        1, 
+        true
+      ], 
+      [
+        "bf61fa65-583b-49b0-959a-72483124910b", 
+        1, 
+        true
+      ], 
+      [
+        "1c9ae828-31eb-4b81-85b8-e8caafa3dcc7", 
+        1, 
+        true
+      ], 
+      [
+        "184d2135-c6d8-463d-9455-75ccc2b939f0", 
+        1, 
+        true
+      ], 
+      [
+        "1a56f5cd-b0d7-430b-920c-a03b2a5003ed", 
+        1, 
+        true
+      ], 
+      [
+        "5b440bbf-1c77-46be-b3ca-8c4a93a787a7", 
+        1, 
+        true
+      ], 
+      [
+        "b14f000c-b149-4922-b8bc-17a8a554f78c", 
+        1, 
+        true
+      ], 
+      [
+        "82024b03-da2a-4c9f-8c92-0ee1e95134c9", 
+        1, 
+        true
+      ], 
+      [
+        "134c693d-9566-46b9-9046-d5de00837d28", 
+        1, 
+        true
+      ]
+    ], 
+    "data": "{\"layout\": [{\"oozieRows\": [{\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Ssh\", \"widgetType\": \"ssh-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"e16dbc5a-8d31-796f-5a07-087f8e27f446\", \"size\": 12}], \"id\": \"41d50a81-e361-f3d3-4c7a-c828757a1fe2\", \"columns\": []}], \"rows\": [{\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Start\", \"widgetType\": \"start-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"size\": 12}], \"id\": \"041c0cbd-4ada-36b8-4a8c-ece9e67b0e9b\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Ssh\", \"widgetType\": \"ssh-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"e16dbc5a-8d31-796f-5a07-087f8e27f446\", \"size\": 12}], \"id\": \"41d50a81-e361-f3d3-4c7a-c828757a1fe2\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"End\", \"widgetType\": \"end-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"size\": 12}], \"id\": \"63b7e47c-847f-dfee-202f-7c237198b9ae\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Kill\", \"widgetType\": \"kill-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"size\": 12}], \"id\": \"734c96d4-accd-9528-2b54-2bd1b579baee\", \"columns\": []}], \"oozieEndRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"End\", \"widgetType\": \"end-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"size\": 12}], \"id\": \"63b7e47c-847f-dfee-202f-7c237198b9ae\", \"columns\": []}, \"oozieKillRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Kill\", \"widgetType\": \"kill-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"size\": 12}], \"id\": \"734c96d4-accd-9528-2b54-2bd1b579baee\", \"columns\": []}, \"enableOozieDropOnAfter\": true, \"oozieStartRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Start\", \"widgetType\": \"start-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"size\": 12}], \"id\": \"041c0cbd-4ada-36b8-4a8c-ece9e67b0e9b\", \"columns\": []}, \"klass\": \"card card-home card-column span12\", \"enableOozieDropOnBefore\": true, \"drops\": [\"temp\"], \"id\": \"8af083af-366c-70da-77c5-38208b10ccfd\", \"size\": 12}], \"workflow\": {\"properties\": {\"job_xml\": \"\", \"description\": \"Button stop jupyter\", \"parameters\": [{\"name\": \"oozie.use.system.libpath\", \"value\": true}], \"sla_enabled\": false, \"deployment_dir\": \"/user/hue/oozie/workspaces/hue-oozie-1520510451.85\", \"schema_version\": \"uri:oozie:workflow:0.5\", \"sla\": [{\"value\": false, \"key\": \"enabled\"}, {\"value\": \"${nominal_time}\", \"key\": \"nominal-time\"}, {\"value\": \"\", \"key\": \"should-start\"}, {\"value\": \"${30 * MINUTES}\", \"key\": \"should-end\"}, {\"value\": \"\", \"key\": \"max-duration\"}, {\"value\": \"\", \"key\": \"alert-events\"}, {\"value\": \"\", \"key\": \"alert-contact\"}, {\"value\": \"\", \"key\": \"notification-msg\"}, {\"value\": \"\", \"key\": \"upstream-apps\"}], \"show_arrows\": true, \"wf1_id\": null, \"properties\": []}, \"name\": \"Jupyter - Stop - ixpbdaopta01\", \"versions\": [\"uri:oozie:workflow:0.4\", \"uri:oozie:workflow:0.4.5\", \"uri:oozie:workflow:0.5\"], \"isDirty\": false, \"movedNode\": null, \"linkMapping\": {\"17c9c895-5a16-7443-bb81-f34b30b21548\": [], \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\": [], \"e16dbc5a-8d31-796f-5a07-087f8e27f446\": [\"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"], \"3f107997-04cc-8733-60a9-a4bb62cebffc\": [\"e16dbc5a-8d31-796f-5a07-087f8e27f446\"]}, \"nodeIds\": [\"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"e16dbc5a-8d31-796f-5a07-087f8e27f446\"], \"nodes\": [{\"properties\": {}, \"name\": \"Start\", \"children\": [{\"to\": \"e16dbc5a-8d31-796f-5a07-087f8e27f446\"}], \"actionParametersFetched\": false, \"type\": \"start-widget\", \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"actionParameters\": []}, {\"properties\": {}, \"name\": \"End\", \"children\": [], \"actionParametersFetched\": false, \"type\": \"end-widget\", \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"actionParameters\": []}, {\"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"message\": \"Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]\", \"subject\": \"\"}, \"name\": \"Kill\", \"children\": [], \"actionParametersFetched\": false, \"type\": \"kill-widget\", \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"actionParameters\": []}, {\"properties\": {\"ssh_command\": \"bash -x /home/analyticsdb/projects/jupyter/jupyter-stop-PROD-ixpbdaopta01.sh\", \"retry_max\": [], \"retry_interval\": [], \"capture_output\": true, \"host\": \"analyticsdb@ixpbdaopta01.prod.ix.perform.local\", \"arguments\": [], \"credentials\": [], \"sla\": [{\"value\": false, \"key\": \"enabled\"}, {\"value\": \"${nominal_time}\", \"key\": \"nominal-time\"}, {\"value\": \"\", \"key\": \"should-start\"}, {\"value\": \"${30 * MINUTES}\", \"key\": \"should-end\"}, {\"value\": \"\", \"key\": \"max-duration\"}, {\"value\": \"\", \"key\": \"alert-events\"}, {\"value\": \"\", \"key\": \"alert-contact\"}, {\"value\": \"\", \"key\": \"notification-msg\"}, {\"value\": \"\", \"key\": \"upstream-apps\"}]}, \"name\": \"ssh-e16d\", \"children\": [{\"to\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"}, {\"error\": \"17c9c895-5a16-7443-bb81-f34b30b21548\"}], \"actionParametersFetched\": false, \"type\": \"ssh-widget\", \"id\": \"e16dbc5a-8d31-796f-5a07-087f8e27f446\", \"actionParameters\": []}], \"id\": 2514, \"nodeNamesMapping\": {\"17c9c895-5a16-7443-bb81-f34b30b21548\": \"Kill\", \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\": \"End\", \"e16dbc5a-8d31-796f-5a07-087f8e27f446\": \"ssh-e16d\", \"3f107997-04cc-8733-60a9-a4bb62cebffc\": \"Start\"}, \"uuid\": \"8b216997-137c-07a0-f857-f889aa3cfd73\"}}", 
+    "name": "Jupyter - Stop - ixpbdaopta01"
+  }
+}
+]

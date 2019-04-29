@@ -1,0 +1,112 @@
+
+[mediaetlgam@IXPBDAODI01 hive_test]$ bash -x beeline-hive-production-params.sh password1.file hive_describe_schema_tablename.hql staged_mediabi clicks >> out.log | grep '|'
++ echo '<<beeline -f>>  PASSWORDFILE EXECUTIONFILE '
+++ pwd
++ PASSWORDFILE=/home/mediaetlgam/hive_test/password1.file
+++ pwd
++ EXECUTIONFILE=/home/mediaetlgam/hive_test/hive_describe_schema_tablename.hql
++ MYSCHEMA=staged_mediabi
++ MYTABLE=clicks
++ USERNAME1=mediaetlgam
++ echo ' |||| ----- EXECUTION PRINTED WITH CONNECTION SCTRING ----- |||| '
++ IFS=
++ read -r line
++ LOCAL_PASSWORD=iczHlg7b02YQAuX1
+++ echo ' !connect jdbc:hive2://ixpbda04:10000/staged_akamai;user=mediaetlgam;password=iczHlg7b02YQAuX1;principal=hive/ixpbda04.prod.ix.perform.local@BDA.PERFORMGROUP.COM ;'
++ LOCAL_CONNECT=' !connect jdbc:hive2://ixpbda04:10000/staged_akamai;user=mediaetlgam;password=iczHlg7b02YQAuX1;principal=hive/ixpbda04.prod.ix.perform.local@BDA.PERFORMGROUP.COM ;'
++ sed -i '1i  !connect jdbc:hive2://ixpbda04:10000/staged_akamai;user=mediaetlgam;password=iczHlg7b02YQAuX1;principal=hive/ixpbda04.prod.ix.perform.local@BDA.PERFORMGROUP.COM ;' /home/mediaetlgam/hive_test/hive_describe_schema_tablename.hql
++ beeline -f /home/mediaetlgam/hive_test/hive_describe_schema_tablename.hql --hiveconf schema=staged_mediabi --hiveconf tablename=clicks
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+2018-01-30 10:52:59,062 WARN  [main] mapreduce.TableMapReduceUtil: The hbase-prefix-tree module jar containing PrefixTreeCodec is not present.  Continuing without it.
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+scan complete in 2ms
+Connecting to jdbc:hive2://ixpbda04:10000/staged_akamai;user=mediaetlgam;password=iczHlg7b02YQAuX1;principal=hive/ixpbda04.prod.ix.perform.local@BDA.PERFORMGROUP.COM
+Connected to: Apache Hive (version 1.1.0-cdh5.9.0)
+Driver: Hive JDBC (version 1.1.0-cdh5.9.0)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+INFO  : Compiling command(queryId=hive_20180130105353_a4ee456e-cadb-4aa1-897f-ce60af9ed679): USE staged_mediabi
+INFO  : Semantic Analysis Completed
+INFO  : Returning Hive schema: Schema(fieldSchemas:null, properties:null)
+INFO  : Completed compiling command(queryId=hive_20180130105353_a4ee456e-cadb-4aa1-897f-ce60af9ed679); Time taken: 0.019 seconds
+INFO  : Executing command(queryId=hive_20180130105353_a4ee456e-cadb-4aa1-897f-ce60af9ed679): USE staged_mediabi
+INFO  : Starting task [Stage-0:DDL] in serial mode
+INFO  : Completed executing command(queryId=hive_20180130105353_a4ee456e-cadb-4aa1-897f-ce60af9ed679); Time taken: 0.009 seconds
+INFO  : OK
+No rows affected (0.086 seconds)
+INFO  : Compiling command(queryId=hive_20180130105353_2811451c-7b6d-4702-bc74-27d99a32c3de): DESCRIBE staged_mediabi.clicks
+INFO  : Semantic Analysis Completed
+INFO  : Returning Hive schema: Schema(fieldSchemas:[FieldSchema(name:col_name, type:string, comment:from deserializer), FieldSchema(name:data_type, type:string, comment:from deserializer), FieldSchema(name:comment, type:string, comment:from deserializer)], properties:null)
+INFO  : Completed compiling command(queryId=hive_20180130105353_2811451c-7b6d-4702-bc74-27d99a32c3de); Time taken: 0.021 seconds
+INFO  : Executing command(queryId=hive_20180130105353_2811451c-7b6d-4702-bc74-27d99a32c3de): DESCRIBE staged_mediabi.clicks
+INFO  : Starting task [Stage-0:DDL] in serial mode
+INFO  : Completed executing command(queryId=hive_20180130105353_2811451c-7b6d-4702-bc74-27d99a32c3de); Time taken: 0.012 seconds
+INFO  : OK
+46 rows selected (0.145 seconds)
+Closing: 0: jdbc:hive2://ixpbda04:10000/staged_akamai;user=mediaetlgam;password=iczHlg7b02YQAuX1;principal=hive/ixpbda04.prod.ix.perform.local@BDA.PERFORMGROUP.COM
++ sed -i 1d /home/mediaetlgam/hive_test/hive_describe_schema_tablename.hql
++ IFS=
++ read -r line
++ [[ -n '' ]]
+[mediaetlgam@IXPBDAODI01 hive_test]$ ls
+beeline-hive-production-params.sh    hive_describe_a_table.hql           hive_describe_tables.hql  password1.file
+hive_create-database-production.hql  hive_describe_schema_tablename.hql  out.log
+[mediaetlgam@IXPBDAODI01 hive_test]$ cat out.log 
+<<beeline -f>>  PASSWORDFILE EXECUTIONFILE 
+ |||| ----- EXECUTION PRINTED WITH CONNECTION SCTRING ----- |||| 
+beeline> !connect jdbc:hive2://ixpbda04:10000/staged_akamai;user=mediaetlgam;password=iczHlg7b02YQAuX1;principal=hive/ixpbda04.prod.ix.perform.local@BDA.PERFORMGROUP.COM ;
+0: jdbc:hive2://ixpbda04:10000/staged_akamai> USE ${hiveconf:schema};
+0: jdbc:hive2://ixpbda04:10000/staged_akamai> DESCRIBE ${hiveconf:schema}.${hiveconf:tablename};
++--------------------------+-----------------------+-----------------------+--+
+|         col_name         |       data_type       |        comment        |
++--------------------------+-----------------------+-----------------------+--+
+| creativeid               | string                |                       |
+| lineitemid               | string                |                       |
+| adunitid                 | string                |                       |
+| orderid                  | string                |                       |
+| advertiserid             | string                |                       |
+| date                     | string                |                       |
+| country                  | string                |                       |
+| region                   | string                |                       |
+| creativesize             | string                |                       |
+| requestedadunitsizes     | string                |                       |
+| devicecategory           | string                |                       |
+| refererurl               | string                |                       |
+| os                       | string                |                       |
+| product                  | string                |                       |
+| browser                  | string                |                       |
+| backfill                 | boolean               |                       |
+| pod                      | string                |                       |
+| edition                  | string                |                       |
+| appversion               | string                |                       |
+| inview                   | string                |                       |
+| videoaudio               | string                |                       |
+| videochannelid           | string                |                       |
+| videocontentinitiation   | string                |                       |
+| videodomain              | string                |                       |
+| videopartner             | string                |                       |
+| videoplayertype          | string                |                       |
+| videoplayerwidth         | string                |                       |
+| videotype                | string                |                       |
+| clicks                   | bigint                |                       |
+| adunitname               | string                |                       |
+| rightsholder             | string                |                       |
+| lineitemname             | string                |                       |
+| ordername                | string                |                       |
+| costtype                 | string                |                       |
+| costperunit              | string                |                       |
+| advertisername           | string                |                       |
+| creativename             | string                |                       |
+| yieldgroupcompanyid      | string                |                       |
+| yieldgroupcompanyname    | string                |                       |
+| revenue                  | string                |                       |
+| dt                       | string                |                       |
+|                          | NULL                  | NULL                  |
+| # Partition Information  | NULL                  | NULL                  |
+| # col_name               | data_type             | comment               |
+|                          | NULL                  | NULL                  |
+| dt                       | string                |                       |
++--------------------------+-----------------------+-----------------------+--+
+0: jdbc:hive2://ixpbda04:10000/staged_akamai> 
+0: jdbc:hive2://ixpbda04:10000/staged_akamai> 
+[mediaetlgam@IXPBDAODI01 hive_test]$ 
+

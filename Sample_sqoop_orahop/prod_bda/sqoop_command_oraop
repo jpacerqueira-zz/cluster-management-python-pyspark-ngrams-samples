@@ -1,0 +1,9 @@
+PASSVAR=$1
+# echo $PASSVAR
+# Dummy sqlplus command
+./runscript_sqlplus BDA_USER $PASSVAR BDA_SANDBOX exit
+#
+sqoop import -D \
+    mapred.job.name='default oraoop' --direct --connect \
+    jdbc:oracle:thin:@'(DESCRIPTION=(LOAD_BALANCE=YES)(ADDRESS=(PROTOCOL=SDP)(HOST=ixallpdb01-priv1.prod.ix.perform.local)(PORT=1522))(ADDRESS=(PROTOCOL=SDP)(HOST=ixallpdb02-priv1.prod.ix.perform.local)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=BDA_SANDBOX)))' \
+  --username BDA_USER --password $PASSVAR --table BDA_OWNER.EXT_DAZN_LOGS --as-textfile --delete-target-dir --target-dir /tmp/sqoop_test

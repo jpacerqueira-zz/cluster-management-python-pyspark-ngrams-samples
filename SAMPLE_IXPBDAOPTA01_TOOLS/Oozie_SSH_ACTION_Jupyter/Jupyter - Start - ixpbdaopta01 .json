@@ -1,0 +1,89 @@
+[
+{
+  "pk": 2600, 
+  "model": "desktop.document2", 
+  "fields": {
+    "search": null, 
+    "uuid": "60d6e15c-60fe-6b1e-70cb-970fdd4b390c", 
+    "extra": "", 
+    "type": "oozie-workflow2", 
+    "description": "button start jupyter", 
+    "is_history": false, 
+    "parent_directory": [
+      "3972316f-c69e-4c37-a6a7-1542c6dc9b5b", 
+      1, 
+      false
+    ], 
+    "is_managed": false, 
+    "last_modified": "2018-03-12T21:54:44", 
+    "version": 1, 
+    "owner": [
+      "analyticsdb"
+    ], 
+    "dependencies": [
+      [
+        "02764d52-1f17-4840-8c2e-fa5daaa2260b", 
+        1, 
+        true
+      ], 
+      [
+        "2cd2169a-0a67-4a4f-8344-2b1215b0abf5", 
+        1, 
+        true
+      ], 
+      [
+        "4f9e1b57-9929-4196-a93b-221bffcdfa06", 
+        1, 
+        true
+      ], 
+      [
+        "96bc6a1f-c0f4-4d7a-b238-50b31247d80c", 
+        1, 
+        true
+      ], 
+      [
+        "b95690a3-af31-4bb2-a892-dff576426894", 
+        1, 
+        true
+      ], 
+      [
+        "af6e41a6-dea2-41f4-9d23-baa12b5650a4", 
+        1, 
+        true
+      ], 
+      [
+        "de55744b-c860-4be1-b29a-55e0c4b27730", 
+        1, 
+        true
+      ], 
+      [
+        "195d107a-924f-419b-88fe-c870cc98b1c0", 
+        1, 
+        true
+      ], 
+      [
+        "0ce6f2ee-0a54-463c-b1f8-a406fe2d5692", 
+        1, 
+        true
+      ], 
+      [
+        "d060acee-112c-4f0e-801a-6aa5efea0029", 
+        1, 
+        true
+      ], 
+      [
+        "26a3d10d-4969-47f2-b067-730d920fdf59", 
+        1, 
+        true
+      ], 
+      [
+        "06ba6514-292e-47de-a6b8-2705f08c382d", 
+        1, 
+        true
+      ]
+    ], 
+    "data": "{\"layout\": [{\"oozieRows\": [{\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Ssh\", \"widgetType\": \"ssh-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"d2ebf66a-a0d9-4dd7-eb6b-cf1f52948a5f\", \"size\": 12}], \"id\": \"46b152a4-fe8d-d250-9cb0-1156159f0d26\", \"columns\": []}], \"rows\": [{\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Start\", \"widgetType\": \"start-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"size\": 12}], \"id\": \"c1691dc1-772e-6713-bd8f-c261255719ea\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Ssh\", \"widgetType\": \"ssh-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"d2ebf66a-a0d9-4dd7-eb6b-cf1f52948a5f\", \"size\": 12}], \"id\": \"46b152a4-fe8d-d250-9cb0-1156159f0d26\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"End\", \"widgetType\": \"end-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"size\": 12}], \"id\": \"93d43b1b-7625-2a9b-af0a-871cfac75396\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Kill\", \"widgetType\": \"kill-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"size\": 12}], \"id\": \"fe1adb18-b113-d8a0-8fb8-4fad76a51e04\", \"columns\": []}], \"oozieEndRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"End\", \"widgetType\": \"end-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"size\": 12}], \"id\": \"93d43b1b-7625-2a9b-af0a-871cfac75396\", \"columns\": []}, \"oozieKillRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Kill\", \"widgetType\": \"kill-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"size\": 12}], \"id\": \"fe1adb18-b113-d8a0-8fb8-4fad76a51e04\", \"columns\": []}, \"enableOozieDropOnAfter\": true, \"oozieStartRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Start\", \"widgetType\": \"start-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"size\": 12}], \"id\": \"c1691dc1-772e-6713-bd8f-c261255719ea\", \"columns\": []}, \"klass\": \"card card-home card-column span12\", \"enableOozieDropOnBefore\": true, \"drops\": [\"temp\"], \"id\": \"232d8d4a-eb14-8bce-3477-4bf5a147d35d\", \"size\": 12}], \"workflow\": {\"properties\": {\"job_xml\": \"\", \"description\": \"button start jupyter\", \"parameters\": [{\"name\": \"oozie.use.system.libpath\", \"value\": true}], \"sla_enabled\": false, \"deployment_dir\": \"/user/hue/oozie/workspaces/hue-oozie-1520890876.52\", \"schema_version\": \"uri:oozie:workflow:0.5\", \"sla\": [{\"value\": false, \"key\": \"enabled\"}, {\"value\": \"${nominal_time}\", \"key\": \"nominal-time\"}, {\"value\": \"\", \"key\": \"should-start\"}, {\"value\": \"${30 * MINUTES}\", \"key\": \"should-end\"}, {\"value\": \"\", \"key\": \"max-duration\"}, {\"value\": \"\", \"key\": \"alert-events\"}, {\"value\": \"\", \"key\": \"alert-contact\"}, {\"value\": \"\", \"key\": \"notification-msg\"}, {\"value\": \"\", \"key\": \"upstream-apps\"}], \"show_arrows\": true, \"wf1_id\": null, \"properties\": []}, \"name\": \"Jupyter - Start - ixpbdaopta01\", \"versions\": [\"uri:oozie:workflow:0.4\", \"uri:oozie:workflow:0.4.5\", \"uri:oozie:workflow:0.5\"], \"isDirty\": false, \"movedNode\": null, \"linkMapping\": {\"d2ebf66a-a0d9-4dd7-eb6b-cf1f52948a5f\": [\"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"], \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\": [], \"3f107997-04cc-8733-60a9-a4bb62cebffc\": [\"d2ebf66a-a0d9-4dd7-eb6b-cf1f52948a5f\"], \"17c9c895-5a16-7443-bb81-f34b30b21548\": []}, \"nodeIds\": [\"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"d2ebf66a-a0d9-4dd7-eb6b-cf1f52948a5f\"], \"nodes\": [{\"properties\": {}, \"name\": \"Start\", \"children\": [{\"to\": \"d2ebf66a-a0d9-4dd7-eb6b-cf1f52948a5f\"}], \"actionParametersFetched\": false, \"type\": \"start-widget\", \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"actionParameters\": []}, {\"properties\": {}, \"name\": \"End\", \"children\": [], \"actionParametersFetched\": false, \"type\": \"end-widget\", \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"actionParameters\": []}, {\"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"message\": \"Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]\", \"subject\": \"\"}, \"name\": \"Kill\", \"children\": [], \"actionParametersFetched\": false, \"type\": \"kill-widget\", \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"actionParameters\": []}, {\"properties\": {\"ssh_command\": \"bash -x /home/analyticsdb/projects/jupyter/jupyter-start-PROD-ixpbdaopta01.sh\", \"retry_max\": [], \"retry_interval\": [], \"capture_output\": true, \"host\": \"analyticsdb@ixpbdaopta01.prod.ix.perform.local\", \"arguments\": [], \"credentials\": [], \"sla\": [{\"value\": false, \"key\": \"enabled\"}, {\"value\": \"${nominal_time}\", \"key\": \"nominal-time\"}, {\"value\": \"\", \"key\": \"should-start\"}, {\"value\": \"${30 * MINUTES}\", \"key\": \"should-end\"}, {\"value\": \"\", \"key\": \"max-duration\"}, {\"value\": \"\", \"key\": \"alert-events\"}, {\"value\": \"\", \"key\": \"alert-contact\"}, {\"value\": \"\", \"key\": \"notification-msg\"}, {\"value\": \"\", \"key\": \"upstream-apps\"}]}, \"name\": \"ssh-d2eb\", \"children\": [{\"to\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"}, {\"error\": \"17c9c895-5a16-7443-bb81-f34b30b21548\"}], \"actionParametersFetched\": false, \"type\": \"ssh-widget\", \"id\": \"d2ebf66a-a0d9-4dd7-eb6b-cf1f52948a5f\", \"actionParameters\": []}], \"id\": 2600, \"nodeNamesMapping\": {\"d2ebf66a-a0d9-4dd7-eb6b-cf1f52948a5f\": \"ssh-d2eb\", \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\": \"End\", \"3f107997-04cc-8733-60a9-a4bb62cebffc\": \"Start\", \"17c9c895-5a16-7443-bb81-f34b30b21548\": \"Kill\"}, \"uuid\": \"60d6e15c-60fe-6b1e-70cb-970fdd4b390c\"}}", 
+    "name": "Jupyter - Start - ixpbdaopta01"
+  }
+}
+]
